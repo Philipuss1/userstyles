@@ -1,0 +1,67 @@
+
+/* Compact Profile Thing */
+
+.avatarWrapper-1B9FTW  .nameTag-sc-gpq,
+/* I prefer to hide the deafen button, but feel free to not do that */
+.container-YkUktl [aria-label="Deafen"] { display: none; } 
+.container-YkUktl button svg { width: 18px; }
+
+.container-YkUktl {
+	width: 50px;
+	height: 100px;
+	position: relative;
+	left: 0;
+	transform: translateX(-114%); /* depending on your theme, you may need to readjust these*/
+	top: -70px;
+	display: block;
+	background: none !important;
+}
+.container-1eFtFS:has(.vc-bf-folder-sidebar) .container-YkUktl { transform: translateX(-232%); } /* if you have the server group plugin enabled */
+.panels-3wFtMD:has(.container-1zzFcN) .container-YkUktl { top: -171px; } /* for some reason different nonrelated things alter the horizontal positioning ?? */
+#app-mount:has(.pictureInPicture-1GQX91>*) .container-YkUktl { top: -220px; }
+#app-mount:has(.pictureInPicture-1GQX91>*) .wrapper-3Hk9OB { top: -150px; }
+
+
+.wrapper-3Hk9OB {
+	position: relative;
+	top: -100px;
+}
+
+.container-YkUktl>.directionRow-2Iu2A9 {
+	justify-content: center;
+	margin-left: -4px;
+	margin-top: 10px;
+}
+
+/* yes I know this makes the status and a bunch of other things look weird */
+.avatar-1EWyVD * {
+	width: 43px !important;
+	height: 43px !important;
+}
+
+.panels-3wFtMD { height: 0; }
+
+.base-2jDfDU {
+	padding-left: 160px;
+	left: -160px;
+	pointer-events: none;
+}
+.base-2jDfDU>*>* { pointer-events: auto; }
+.base-2jDfDU { margin-right: -160px !important;}
+
+.sidebar-1tnWFu {
+	padding-left: 160px;
+	margin-left: -160px;
+	pointer-events: none;
+}
+.sidebar-1tnWFu>* { pointer-events: auto; }
+
+.unreadMentionsIndicatorBottom-3RJMnQ { bottom: 70px; }
+
+
+.scroller-3X7KbA {
+	height: 92%;
+	flex: none;
+}
+
+.accountProfilePopoutWrapper-3GskID { left: 0; }
