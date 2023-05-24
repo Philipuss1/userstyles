@@ -52,7 +52,7 @@
 	padding-left: 160px;
 	margin-left: -160px;
 	pointer-events: none;
-	background-color: transparent;
+	background-clip: content-box;
 }
 .sidebar-1tnWFu>* { pointer-events: auto; }
 
