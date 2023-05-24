@@ -39,7 +39,6 @@
 	height: 43px !important;
 }
 
-.panels-3wFtMD { height: 0; }
 
 .base-2jDfDU {
 	padding-left: 160px;
@@ -53,8 +52,15 @@
 	padding-left: 160px;
 	margin-left: -160px;
 	pointer-events: none;
+	background-color: transparent;
 }
 .sidebar-1tnWFu>* { pointer-events: auto; }
+
+.panels-3wFtMD {
+	padding: 0;
+	margin: 0;
+	height: 0;
+}
 
 .unreadMentionsIndicatorBottom-3RJMnQ { bottom: 70px; }
 
